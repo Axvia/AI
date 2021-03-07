@@ -5,7 +5,7 @@ module.exports = async(client, message) => {
     .setTitle('BNC Software')
     .setDescription('Advance Brawlhalla Macro by Necode - Version 0.8')
     .addField('Information', 
-        `📥 | [Download](https://drive.google.com/file/d/1t3cfmWKfh-v73QQTvX0q3viNM5TFZZ_f/view?usp=sharing)\n`+
+        `📥 | [Download](https://drive.google.com/file/d/1sCIHBIEDEUpVGNcmiggyt_3UBmllTX-J/view?usp=sharing)\n`+
         `ℹ️ | Version : \`0.8\`\n`+
         `⚙️ | Created by <@!802906117318770688>\n`+
         `💻 | Tested on \`Windows 8\``
