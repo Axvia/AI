@@ -1,0 +1,2 @@
+# AI
+Personal discord bot
