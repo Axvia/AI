@@ -1,0 +1,37 @@
+{
+  "name": "ai",
+  "version": "1.0.0",
+  "description": "Artificial Intelligent discord bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "DiscordJS",
+    "Discord",
+    "DiscordBot"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "axios": "^0.21.1",
+    "chalk": "^3.0.0",
+    "cheerio": "^1.0.0-rc.5",
+    "danbooru": "^3.1.0",
+    "discord.js": "^12.5.1",
+    "fs": "^0.0.1-security",
+    "mathjs": "^9.2.0",
+    "mongoose": "^5.11.15",
+    "node-superfetch": "^0.1.11",
+    "path": "^0.12.7",
+    "relevant-urban": "^2.0.0",
+    "request": "^2.88.2",
+    "weather-js": "^2.0.0",
+    "wikipedia": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
