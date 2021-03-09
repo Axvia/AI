@@ -8,7 +8,7 @@ module.exports = async(client, message) => {
         `📥 | [Download](https://drive.google.com/file/d/1lcVtdLbtJXuRkoQSR0OEpVBqOQ22ayY0/view?usp=sharing)\n`+
         `ℹ️ | Version : \`0.9\`\n`+
         `⚙️ | Created by <@!802906117318770688>\n`+
-        `💻 | Compiled in \`Windows 8\``
+        `💻 | Compiled on \`Windows 8\``
     )
     .setFooter(`Reqested by ${message.author.username}`, message.author.displayAvatarURL()).setTimestamp()
     await message.channel.send(embedSoftware)
