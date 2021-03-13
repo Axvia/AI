@@ -17,8 +17,8 @@ module.exports = async function memberLeave(client, member) {
             let { Farewell } = require('../guilds/Hanazono/members/JoinLeave')
             await Farewell(client, "797063329201258496", config.userTag, config.userIcon, config.guildIcon, config.memberSince, config.guildName)
         }
-        if (config.guildId === InGuild.DiscordKyz) {
-            let { Farewell } = require('../guilds/Discord.kyz/members/JoinLeave')
+        if (config.guildId === InGuild.Disproberry) {
+            let { Farewell } = require('../guilds/Disproberry/members/JoinLeave')
             await Farewell(client, "800292906678222848", config.userTag, config.userIcon, config.guildIcon, config.memberSince, config.guildName, config.isBot, config.memberId)
         }
     } Member()//.catch(err => console.log(`Failed to process message. Error :: ${err} :: Please fix the script carefully!`))

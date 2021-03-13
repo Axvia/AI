@@ -26,8 +26,8 @@ module.exports = async function ReactionRemove(client, reaction, user){
         /**Ignore user bot*/
         if (config.isBot) return;
         /**########################################################################################*/
-        if (config.guildID === InGuild.DiscordKyz/**&& config.messageID === ""*/)  {
-            let {  removeRole } = require('../guilds/Discord.kyz/reactions/reactionManager');
+        if (config.guildID === InGuild.Disproberry/**&& config.messageID === ""*/)  {
+            let {  removeRole } = require('../guilds/Disproberry/reactions/reactionManager');
             /**Give/Remove role if client have permission to manage roles*/
             if (config.hasPermissionManageRoles) {
                 if (config.messageID === "817232785835294752") {

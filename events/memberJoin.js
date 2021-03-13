@@ -17,8 +17,8 @@ module.exports = async function memberJoin(client, member) {
             let { Welcome } = require('../guilds/Hanazono/members/JoinLeave')
             await Welcome(client, "797063257218220083", config.userTag, config.userIcon, config.guildIcon, config.memberSince, config.guildName)
         }
-        if (config.guildId === InGuild.DiscordKyz) {
-            let { Welcome } = require('../guilds/Discord.kyz/members/JoinLeave')
+        if (config.guildId === InGuild.Disproberry) {
+            let { Welcome } = require('../guilds/Disproberry/members/JoinLeave')
             await Welcome(client, "800292845087883264", config.userTag, config.userIcon, config.guildIcon, config.memberCreatedAt, config.guildName, config.isBot, config.memberId)
         }
 
