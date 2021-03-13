@@ -35,7 +35,7 @@ module.exports = {
                 `Uptime: \`\`${uptime}\`\`\n`+
                 `Hosted on: \`\`Windows 8\`\``
             )
-            .addField("Developer", `- [Github](https://github.com/axvia)\nDev. Server:\n- [Sashimi Temple](https://discord.gg/NmHWB8n94q)\n- [Discord.kyz](https://discord.gg/Eb5XztSWx3)`)
+            .addField("Developer", `- [Github](https://github.com/axvia)`)
             .setFooter(`Requested by ${message.author.username}`, message.author.displayAvatarURL()).setTimestamp()
             message.channel.send(Embed)
         } catch (e) {

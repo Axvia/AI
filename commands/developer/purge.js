@@ -1,20 +1,20 @@
 const Discord = require('discord.js')
-const { Prefix, CommandsHyperlink } = require('../../settings.json')
+const { Prefix, CommandsHyperlink, Developers } = require('../../settings.json')
 
 module.exports = {
-    name: `prune`,
-    desc: `Delete multiple messages. Maximum 100 messages.`,
-    usage: `\`${Prefix}prune [text|old|link] <amount>\``,
-    category: `Moderation`,
-    accessibly: `Moderator`,
-    aliases: ["prune"],
-    cooldown: 5,
-    details: `[prune](${CommandsHyperlink} 'Delete multiple messages. Maximum 100 messages.')`,
-    permissions: [ "Manage Roles" ],
+    name: `purge`,
+    desc: `Delete multiple messages`,
+    usage: `\`${Prefix}purge [text|old|link] <amount>\``,
+    category: `Developer`,
+    accessibly: `Developer`,
+    aliases: [ ],
+    cooldown: 0,
+    details: `purge`,
+    permissions: [ ],
     status: "Active",
     launch: async(client, message, args) => {
         try {
-            if (!message.member.roles.cache.find(role => role.name === "Moderator")) return message.channel.send("Moderator role required!");
+            if (!Developers.includes(message.author.id)) return;
             if (!message.guild.me.hasPermission("MANAGE_MESSAGES")) return message.channel.send(`Missing Permission to \`Manage Messages\``) 
             const Options = args[0];
             const Amount = args[1];

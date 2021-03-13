@@ -9,7 +9,7 @@ module.exports = {
     accessibly: `Developer`,
     aliases: ["evaluate","eval"],
     cooldown: 0,
-    details: `[evaluate](${CommandsHyperlink} 'Evaluates js code')`,
+    details: `evaluate`,
     permissions: [ ],
     status: "Active",
     launch: async(client, message, args) => {

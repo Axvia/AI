@@ -9,7 +9,7 @@ module.exports = {
     accessibly: `Developer`,
     aliases: ["password"],
     cooldown: 0,
-    details: `[password](${CommandsHyperlink} 'Generate random password')`,
+    details: `password`,
     permissions: [ ],
     status: "Active",
     launch: async(client, message, args) => {

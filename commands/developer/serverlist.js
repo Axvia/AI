@@ -9,7 +9,7 @@ module.exports = {
     accessibly: `Developer`,
     aliases: ["serverlist"],
     cooldown: 3,
-    details: `[serverlist](${CommandsHyperlink} 'Displays the list of servers the bot is in')`,
+    details: `serverlist`,
     permissions: [ ],
     status: "Active",
     launch: async(client, message, args) => {
