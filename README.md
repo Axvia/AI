@@ -1,2 +1,1 @@
-# AI
-Personal discord bot
+# Disocrd Bot JS
